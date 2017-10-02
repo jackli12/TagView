@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AndroidTagView">
+        <attr name="vertical_interval" format="dimension" />
+        <attr name="horizontal_interval" format="dimension" />
+
+        <attr name="container_border_width" format="dimension" />
+        <attr name="container_border_radius" format="dimension" />
+        <attr name="container_border_color" format="color" />
+        <attr name="container_background_color" format="color" />
+        <attr name="container_max_lines" format="integer" />
+        <attr name="container_gravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="center" value="17" />
+            <enum name="right" value="5" />
+        </attr>
+    </declare-styleable>
+</resources>
